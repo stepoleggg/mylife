@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+}
+
+#m{
+    width: 100%;
+    height: 300px;
+    background-color: #000;
+    color: white;
+    font-family: Century Gothic;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 200px;
+    animation: anime1 2s ease-in-out infinite;
+}
+
+#m2{
+    width: 100%;
+    height: 300px;
+    background-color: #000;
+    color: white;
+    font-family: Century Gothic;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 200px;
+    animation: anime2 2s ease-in-out infinite;
+}
+
+@keyframes anime1 {
+    0% {transform:translate(0);}
+    50%{transform:translate(-50px, 0);border-color:#EE4D68}
+    100%{transform:translate(0);}
+}
+
+@keyframes anime2 {
+    0% {transform:translate(-50px,0);}
+    50%{transform:translate(0);border-color:#EE4D68}
+    100%{transform:translate(-50px,0);}
+}
